@@ -1,0 +1,31 @@
+'''Be very careful when editing! Save a backup beforehand and dont mess with line assignment as the Code depends on it! Using Notepad2 is recommended'''
+
+ProjectPath=C:\Users\Anwender\Desktop\CaseStudy
+write_directory=default
+PanelLocation = Left: 106, Top: 86
+
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+###Categories### (line 8)
+
+C1: name=Auswirkungen auf Wachstum, act=Wahr, rgb=185-15-40;240-50-80
+C2: name=Schulden verursachen Inflation, act=Wahr, rgb=10-40-155;30-75-240
+C3: name=Gefahr Hoher Zinsdienst und Bankrott, act=Wahr, rgb=155-50-120;200-100-170
+C4: name=MoralHazard/SlipperySlope, act=Wahr, rgb=170-170-15;220-220-40
+C5: name=Leid für folgende Generationen, act=Wahr, rgb=10-125-25; 30-235-60
+C6: name=EU-Regeln oder Schuldenbremse , act=Wahr, rgb=230-135-30; 0-190-130
+C7: name=Bloße Höhe des Schuldenstandes, act=Wahr, rgb=0-160-140; 5-255-225
+C8: name=Schwäbische Hausfrau/ Schwarze 0, act=Wahr, rgb=70-10-225; 140-95-140
+C9: name=Artikelfokus Deutschland, act=Wahr, rgb=90-95-95; 150-150-150
+C10: name=Warnend-Negativ, act=Wahr, rgb=50-135-200; 115-175-220
+
+###Descriptions### (line 22)
+D1::1 <||> Es wird über Effekte von Staatsschulden auf das zukünftige Wachstum argumentiert. Dies beinhaltet die Bewertung von Deficit Spending. <||> Jenseits einer Staatsverschuldung von 90 % drohen Wachstumseinbußen. Deficit Spending ist ineffizient, da es sich nur um ein kurzlebiges konjunkturelles Strohfeuer handelt.  <||> Es besteht kein kausaler Zusammenhang zwischen Schuldenstand und Wachstum. Zudem kann Deficit Spending zukünftiges Wachstum erst ermöglichen, etwa in einer Wirtschaftskrise
+D2::2 <||> Es wird POSITIV codiert, wenn eine direkte Kausalkette zwischen Staatsverschuldung und Inflation gezogen wird sowie NEGATIV, wenn diese verneint wird.   <||> Beispiel: "Der praktikabelste Weg zum Abbau der Staatsverschuldung ist die Notenpresse - das zeigt die Geschichte. Die Leidtragenden der daraus resultierenden Inflation sind die Sparer."  <||> Beispiel: "Der Zusammenhang zwischen Geldvolumen und Inflation, das zeigen ökonomische Untersuchungen, entkoppelt sich immer mehr. Schulden führen daher auch bei lockerer Geldpolitik nicht zwangsläufig zur Inflation"
+D3::3 <||> Es wird zum Thema Staatsbankrott bzw. dessen Gefahr argumentiert, etwa über Änderungen der Zinssätze bei Refinanzierung. <||> Werden viele Schulden aufgenommen, müssen die Kredite irgendwann refinanziert werden. Steigt dann der Zins, droht der Staatsbankrott. Dieses Risiko können wir nicht eingehen. <||> Die Gefahr eines Staatsbankrotts besteht nicht, da der Schuldenstand deutlich unter Tragfähigkeit liegt. Es wäre vielmehr nicht klug, in einer Zeit so niedriger Zinsen keine Investitionen über Kredit zu finanzieren
+D4::4 <||> These: Werden Schulden erst einmal normal, gibt es kein Halten mehr.   <||> Gieriges Pleitegriechenpack lebt von jeher über seine Verhältnisse!!!!!!!!!!!!!!!!!!! <||> Schulden sind ganz normales Fiskalpolitisches Mittel, welches vernantwortungsvoll engesetzt wird. Die Eurokrise wurde nicht durch unverantwortliches Haushalten verursacht
+D5::5 <||> These: Heutige Schulden führen dazu, dass unsere Kinder das ausbaden müssen. Diese Kategorie benötigt emotionale Argumentationsführung <||> "Wir leben auf die Kosten unserer Nachkommen!" <||> Durch Schulden werden nötige Investionen wie etwa im Klimaschutz möglich. Unsere Nachkommen können es sich nicht leisten, darauf zu verzichten
+D6::6 <||> These: Verschuldung ist deswegen schlecht, weil sie gegen Regeln wie den Stabilitätspakt oder die Schuldenbremse verstößt <||> "Ist der Staat von Schuld umhüllt, der Vertrag aus Maaßtricht brüllt" ^^ <||> Die Grenze von 60 % des GDP entbehrt jeglicher wissenschaftlicher Empirie. Die Schuldenbremse ist viel zu unflexibel. 
+D7::7 <||> Es wird allein auf die numerische Höhe verwiesen, um Staatsschulden als Problem zu vermitteln. Wird dieser nur erwähnt bzw. als Untermauerung eines anderen Arguments genutzt, wird nicht codiert <||> Deutschland hat XXX  Mrd. Schulden! Das sind drölftausend Golfs! Omg the world will end <||> Die bloße Staatsschuldenquote sagt nicht über die Tragfähigkeit aus. Vielmehr hängt dies von Faktoren wie der Gläubigerzusammensetzung ab
+D8::8 <||> These: Es werden Staatsfinanzen äquivalent zu persönlichen Finanzen behandeln. Dies ist ein emotionales Argument.   <||> Es ist logisch, dass man nur so viel ausgeben kann wie man ausgibt. Das weiß doch jedes Kind.  <||> Staatsfinanzen spielen nach anderen Regeln wie Privathaushalte. Eine schwarze Null ist nicht immer die Beste Strategie
+D9::9 <||> Beschreibt, ob der Artikel sich primär deutschen Staatschulden behandelt oder die eines anderen Landes. Ist das Verhältnis ausgewogen oder wird kein geographischer Fokus deutlich, wird nicht codiert <||> Der Artikel beschreibt die Staatsschulden Deutschlands <||> Der Artikel beschreibt die Schulden eines anderen Landen. Werden aus diesen Schulden Konsequenzen für Deutschland (z.B. via EU-Hilfen an südeuropäische Lander) gefolgert, ist der Artikel dennoch als NEGATIV zu codieren 
+D10::10 <||> Beschreibt, ob der Artikel Staatsschulden als sehr großes Problem betrachtet oder beschwichtigt bzw. positive Entwicklungen zeigt. Ist der Artikel ausgeglichen oder sind Schulden nur ein Randthema, wird nicht codiert <||> Der Artikel enthält überwiegend POSITIVE Codierungen bzw. eine solche Grundhaltung <||> Der Artikel enthält überwiegend negative Codierungen bzw. eine hinsichtlich der Gefahren durch Schulden beschwichtigendeGrundhaltung
