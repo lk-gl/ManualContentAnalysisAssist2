@@ -1,0 +1,33 @@
+'''Be very careful when editing! Save a backup beforehand and dont mess with line assignment as the Code depends on it! Using Notepad2 is recommended'''
+
+ProjectPath=C:\Users\Anwender\Desktop\Uni\BA\Code\Executable\Ressources\Output\meow
+write_directory=default
+PanelLocation = Left: 106, Top: 86
+
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+###Categories### (line 8)
+
+C1: name=, act=Falsch, rgb=185-15-40;240-50-80
+C2: name=, act=Falsch, rgb=10-40-155;30-75-240
+C3: name=, act=Falsch, rgb=155-50-120;200-100-170
+C4: name=, act=Falsch, rgb=170-170-15;220-220-40
+C5: name=, act=Falsch, rgb=10-125-25;30-235-60
+C6: name=, act=Falsch, rgb=230-135-30;240-190-130
+C7: name=, act=Falsch, rgb=0-160-140;5-255-225
+C8: name=, act=Falsch, rgb=70-10-225;140-95-140
+C9: name=, act=Falsch, rgb=90-95-95;150-150-150
+C10: name=, act=Falsch, rgb=50-135-200;115-175-220
+
+
+###Descriptions### (line 22)
+
+D1:
+D2:
+D3:
+D4:
+D5:
+D6:
+D7:
+D8:
+D9:
+D10:
